@@ -114,9 +114,10 @@ HEADER BOTTOM
  */
 
  .header-bottom{
-    background-image:url(..\img\jumbo.png);
+    background-image: url(../img/jumbo.png);
     background-size: contain;
     background-repeat: no-repeat;
+    background-size: cover;
 }  
 .header-bottom-container{
     width: 80%;
