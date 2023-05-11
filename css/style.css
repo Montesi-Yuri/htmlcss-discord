@@ -150,22 +150,21 @@ MAIN
     font-size: 24px;
 }
 
- .main-2col-pink{
-    width: 30%;
-    height: 500px;
+ .main-2col-small{
+    width: 40%;
  } 
  
- .main-2col-blue{
-    width: 70%;
-    height: 500px;
+ .main-2col-big{
+    width: 60%;
  } 
 
  .main-section{
     margin: 0px;
 }
 
-.main-2nd-section{
-    padding: 0;
+.main-2nd-section h2, p{
+    text-align: center;
+    padding-top: 20px;
 }
 
 .sec4-green-box{
@@ -177,18 +176,32 @@ main section{
     padding: 40px 0;
 }
 
+.main-2col-small p{
+    padding-top: 20px;
+    font-size: 22px;
+}
+
+.main-2col-small h2{
+    padding-top: 20px;
+}
+
+.main-3rd-section h2{
+    padding-top: 20px;
+}
+
+
 /*
 FOOTER
  */
 
 .large-column{
-    width: 70%;
+    width: 60%;
     height: 500px;
 }
 
 .small-column{
     height: 500px;
-    width: 30%;
+    width: 40%;
 }
 
 .single-small-column{
@@ -231,8 +244,8 @@ FOOTER
 /* .header-top-big-column,
 .header-top-small-column, */
 /* .header-bottom-container, */
-.main-2col-pink,
-.main-2col-blue,
+/* .main-2col-pink,
+.main-2col-blue, */
 .sec4-green-box,
 .large-column,
 .small-column,
@@ -262,13 +275,15 @@ FOOTER
 
 /* DEBUG MAIN */
 
-.main-2col-blue{
+/* .main-2col-blue{
     background-color: #1E90FF;
+    height: 500px;
  }
 
 .main-2col-pink{
     background-color: #FFC0CB;
- }
+    height: 500px;
+ } */
 
 .grey-background{
     background-color: #D3D3D3;
